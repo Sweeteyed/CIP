@@ -23,7 +23,7 @@ def main():
     print(f'Total energy in your meal: {energy_sum} {BASIC_ENERGY_U}')
 
 def greeting(): #prints a welcome message
-    print('Welcome to the calories calculator!')
+    print('Welcome to the kcalculator!')
     print()
     print('This app allows you to search through a limited nutritional database for the caloric values of basic foods.')
     print('You will be able to calculate the energetic value of your meal, based on the ingredients you select, and their amounts you provide.')
