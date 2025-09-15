@@ -5,9 +5,11 @@ https://fdc.nal.usda.gov/data-documentation
 https://fdc.nal.usda.gov/Foundation_Foods_Documentation
 https://app.swaggerhub.com/apis/fdcnal/food-data_central_api/1.0.1#/FDC/getFoodsSearch
 '''
-import math, requests
+import math, requests, os
+from dotenv import load_dotenv
+load_dotenv()
 
-API_KEY = 'S8I7hej4gTpNspFPKMyNg0cxQjERUkAbDNh6AYJB'
+API_KEY = os.getenv("API_KEY")
 BASIC_MASS = 100
 BASIC_MASS_U = 'g'
 BASIC_ENERGY_U = 'kcal'
